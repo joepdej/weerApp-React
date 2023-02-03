@@ -1,0 +1,50 @@
+.weer {
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  padding: 1em;
+  margin-top: 2em;
+  width: 24em;
+  justify-content: center;
+}
+
+.weer__info {
+  flex: 1;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.weer__plaats {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.day_of_week {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.weer__datum {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.weer__temperatuur {
+  font-size: 2.5em;
+  margin-right: 0.5em;
+}
+
+.weer__beschrijving {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.weer__icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
